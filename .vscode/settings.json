@@ -1,0 +1,86 @@
+{
+  
+  // theme styles
+  "window.autoDetectColorScheme": true,
+  "workbench.colorTheme": "GitHub Dark",
+  "workbench.preferredDarkColorTheme": "GitHub Dark Default",
+  "workbench.preferredLightColorTheme": "GitHub Light Default",
+  "workbench.iconTheme": "file-icons",
+  "workbench.productIconTheme": "icons-carbon",
+  "terminal.integrated.fontWeightBold": "bold",
+  "terminal.integrated.fontSize": 15,
+  
+
+  // editor 
+  "editor.tabSize": 2,
+  "editor.fontWeight": "400",
+  "editor.fontFamily": "Input Mono, Consolas, 'Menlo'",
+  "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss06', 'zero'",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": false,
+    "source.fixAll.eslint": true, 
+    "source.organizeImports": false
+  },
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "editor.accessibilitySupport": "off",
+  "editor.unicodeHighlight.allowedLocales": {
+    "zh-hans": true,
+    "zh-hant": true
+  },
+  "editor.guides.bracketPairs": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+
+  // formatter(eslint & prettier)
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact",
+    "vue",
+    "html",
+    "markdown",
+    "json",
+    "jsonc",
+    "json5"
+  ],
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "eslint.quiet": true,
+  "eslint.format.enable": true,
+  "eslint.trace.server": "off",
+  "eslint.alwaysShowStatus": true,
+  "eslint.run": "onSave",
+  "prettier.enable": false,
+  "prettier.printWidth": 200,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+
+  // git configs
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.ignoreRebaseWarning": true,
+  "git.allowForcePush": true,
+  "gitlens.defaultDateLocale": null,
+  "gitlens.defaultDateFormat": "YYYY/MM/DD hh:mm:ss ",
+  "gitlens.defaultDateShortFormat": null,
+  "gitlens.defaultTimeFormat": "hh:mm",
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.gitCommands.skipConfirmations": [
+    "fetch:command",
+    "stash-push:command",
+    "switch:command",
+    "push:command"
+  ],
+  "gitlens.views.remotes.branches.layout": "list",
+
+  // others
+  "files.autoSave": "onWindowChange",
+  "terminal.integrated.tabs.enabled": true,
+  "terminal.integrated.tabs.enableAnimation": false,
+  "emmet.triggerExpansionOnTab": true,
+  "scm.inputFontSize": 15,
+  "svg.preview.mode": "svg",
+}
